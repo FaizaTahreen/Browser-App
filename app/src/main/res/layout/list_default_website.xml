@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="17dp"
+    android:layout_margin="2dp"
+    android:padding="7dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_default"
+        android:src="@drawable/twitter"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+</androidx.cardview.widget.CardView>
